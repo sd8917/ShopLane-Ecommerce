@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/*HEADER START */
+
+section{
+  margin-top: 100px;
+}
+#header{
+  display: flex;
+  box-shadow: 0 0  2px red;
+  margin-bottom: 20px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+}
+.menu-bar{
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+}
+.card-profile{
+  display: flex;
+}
+
+
+/*HEADER END */
+
+
+
+/*FOOTER START*/
+.footer-wrapper{
+  width: 100%;
+  background-color: #1C1B1E;
+  color: #fff;
+  display: flex;
+  box-sizing: border-box;
+  padding: 4% 8%;
+  /* justify-content: space-evenly; */
+  text-transform: uppercase;
+  justify-content: center;
+  
+}
+.footer-list-item-wrapper{
+  list-style-type: none;
+  
+}
+.footer-title{
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 16px;
+  color: white;
+  opacity: 0.9;
+  letter-spacing: 1px;
+}
+
+.footer-list-item{
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-top: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 14px;
+  opacity: 0.8;
+  font-weight: 200;
+  cursor: pointer;
+}
+.online-store{
+  padding: 0 50px;
+}
+.helpful-link{
+  padding: 0 50px;
+}
+.partners{
+  padding: 0 50px;
+}
+.address{
+  padding: 0 50px;
+}
+
+/*FOOTER END*/
