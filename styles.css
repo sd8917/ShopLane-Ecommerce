@@ -1,13 +1,30 @@
+/*Global CSS */
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+*:focus {
+  outline: none; 
+  /* propert remove search border on focus */
+}
+a{
+  text-decoration: none;
+  color: black;
 }
 
 
 /*HEADER START */
 
-section{
-  margin-top: 100px;
+#logo-title > span{
+  font-weight: 900;
 }
 #header{
   display: flex;
@@ -17,7 +34,7 @@ section{
   align-items: center;
   padding: 20px;
   position: fixed;
-  background-color: #fff;
+  background-color: #FFFFFF;
   width: 100%;
   top: 0;
   left: 0;
@@ -28,14 +45,180 @@ section{
   text-transform: uppercase;
   align-items: center;
 }
-.card-profile{
-  display: flex;
+.menu-bar>h1{
+  margin: 0 20px;
+}
+.menu-bar>a{
+  margin: 0 20px;
 }
 
+input[type=text] {
+  padding: 10px 40px;
+  /* -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out; */
+  width: 250px;
+  border: 0;
+  background-color: #E2E2E2;
+}
 
+.search-bar i {
+  position: absolute;
+}
+.icon {
+  padding: 8px;
+  min-width: 40px;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+}
+
+.card-profile{
+  display: flex;
+  align-items: center;
+}
+
+.profile-img{
+  width: 40px !important;
+  height: 40px;
+  padding: 15px;
+}
+.profile-img > img{
+  width: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.cart-wrapper{
+  padding: 0 15px;
+  font-size: 20px;
+}
+
+.cart-wrapper > i{
+  cursor: pointer;
+}
 /*HEADER END */
 
 
+/* Section Container Start */
+#main-container{
+  /* note for position relative overlap*/
+  margin-top: 200px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+
+
+/*CAROUSEL START */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Make the images invisible by default */
+.Containers {
+  display: none;
+}
+/* The circles or bullets and indicators */
+.dots {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+.enable, .dots:hover {
+  background-color: #717161;
+}
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+/*CAROUSEL END */
+
+
+
+/*Clothing Division Start */
+
+
+.clothing-section-wrapper{
+  margin: 20px 40px;
+}
+.col-card-wrapper{
+  display: flex;
+}
+.card{
+  width: 100%;
+    max-width: 19%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 16px;
+    
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+    
+}
+.card > img{
+  width:100%;
+  cursor: pointer;
+}
+.card-contain
+{
+   padding: 16px;
+}
+#price{
+    margin: 0;
+    margin-top: 12px;
+    font-weight: 600;
+    color: #009688;
+}
+#desc{
+    font-weight: 300;
+    opacity: 0.8;
+    margin: 0;
+    padding-top: 12px;
+}
+#card-title{
+    font-weight: 600;
+    margin: 0;
+    font-size: 16px;
+}
+/*Clothing Division End*/
+
+
+
+
+
+/*Accessories Division Start */
+
+
+
+/*Accessories Division End*/
+
+
+
+/*Section Container End  */
 
 /*FOOTER START*/
 .footer-wrapper{
