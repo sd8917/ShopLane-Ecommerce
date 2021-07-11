@@ -16,7 +16,7 @@
         <!-- fontawesome icon -->
 
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-        <title>Home</title>
+        <title>checkout </title>
     </head>
 
     <body>
@@ -28,8 +28,8 @@
             <nav id="header">
                 <div class="menu-bar">
                     <a id="logo-title" href="/index.html"><span>Shop</span>Lane</a>
-                    <a href="#clothing">Clothing</a>
-                    <a href="#accessories">Accessories</a>
+                    <a href="#">Clothing</a>
+                    <a href="#">Accessories</a>
                 </div>
 
                 <div class="search-bar">
@@ -40,7 +40,6 @@
                 <div class="card-profile">
                     <div class="cart-wrapper">
                         <i class="fas fa-shopping-cart"></i>
-                        <div id="item-in-cart">0</div>
                     </div>
                     <div class="profile-img">
                         <img src="./img/mypic.jpg" alt="Not found" />
@@ -51,78 +50,65 @@
         </header>
         <!-- HEADER END  -->
 
-         <!-- Slideshow container -->
-         <div class="slide-wrapper">
+        <section id="checkout-section-wrapper">
 
-            <div class="slideshow-container">
+            <h2>Checkout</h2>
+            <p>Total Item <span>4</span></p>
 
-                <div class="mySlides fade">
-
-                    <img src="./img/image1.png" style="width:100%" alt="image2">
+            <div class="checkout-wrapper">  
+                <div class="checkout-left-product-list-wrapper">
+                    
+                    <div class="checkout-item">
+                        <div class="checkout-item-img">
+                            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708574-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-1.jpg" />
+                        </div>
+                        <div class="checkout-detail-product">
+                            <h3>Men Navy Blue solid Sweatshirt</h3>
+                            <p>x <span id="quantity">1</span></p>
+                            <p>Amount Rs. 2599</p>
+                        </div>
+                    </div>
+                    <div class="checkout-item">
+                        <div class="checkout-item-img">
+                            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673915-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-1.jpg" />
+                        </div>
+                        <div class="checkout-detail-product">
+                            <h3>Men Navy Blue solid Sweatshirt</h3>
+                            <p>x <span id="quantity">1</span></p>
+                            <p>Amount Rs. 2599</p>
+                        </div>
+                    </div>
+                    <div class="checkout-item">
+                        <div class="checkout-item-img">
+                            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/10122083/2019/6/24/eb5f1aca-1b71-49fa-9c41-aba51f6b01941561362162569-Samsung-Galaxy-Fit-4801561362161527-4.jpg" />
+                        </div>
+                        <div class="checkout-detail-product">
+                            <h3>Men Navy Blue solid Sweatshirt</h3>
+                            <p>x <span id="quantity">1</span></p>
+                            <p>Amount Rs. 2599</p>
+                        </div>
+                    </div>
 
                 </div>
 
-                <div class="mySlides fade">
 
-                    <img src="./img/image2.png" style="width:100%" alt="image2">
+                <div class="checkout-right-total-detail">
 
-                </div>
+                    <h3>Total Amount</h3>
+                    <h4>Amount Rs <span id="total-checkout-price">30587</span> </h4>
 
-                <div class="mySlides fade">
-
-                    <img src="./img/image3.png" style="width:100%"  alt="image3">
-
-                </div>
-                <div class="mySlides fade">
-
-                    <img src="./img/image4.png" style="width:100%"  alt="image3">
+                    <button id="btn-place-order">Place Order</button>
 
                 </div>
 
 
             </div>
-            <br>
 
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                 <span class="dot" onclick="currentSlide(4)"></span>
-            </div>
-        </div>
-        <!-- carousel end -->
-        
-        <!-- CONTAIN SECTION START-->
-        <section id="main-container">
-            <!-- /*Clothing section wrapper*/ -->
-
-            <div class="clothing-section-wrapper">
-                <!-- <h2  id="clothing">Clothing for Men and Women</h2> -->
-
-                <div class="clothing-col-card-wrapper">
-
-
-                </div>
-
-            </div>
-
-
-            <div class="accessories-section-wrapper">
-
-                <!-- <h2  id="accessories" >Accessories  for Men and Women</h2> -->
-
-                <div class="accessories-col-card-wrapper">
-
-
-                </div>
-
-            </div>
 
 
         </section>
 
-        <!-- CONTAIN SECTION END-->
-
+  
 
         <!-- FOOTER START -->
         <footer>
